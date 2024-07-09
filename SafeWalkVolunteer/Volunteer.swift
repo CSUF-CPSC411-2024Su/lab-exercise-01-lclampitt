@@ -16,6 +16,8 @@ class SafeWalkVolunteer : Volunteer {
     var age: Int
     var name: String
     
+    
+    
     var maxHours: Int {
         if age < 18 {
             return 1
